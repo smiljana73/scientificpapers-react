@@ -1,0 +1,33 @@
+.filter {
+  margin-bottom: 50px;
+  font-size: 15px;
+}
+
+.filter-header {
+  border-bottom: 1px solid rgb(190, 190, 190);
+  height: 40px;
+  color: rgb(71, 71, 71);
+  padding-left: 10px;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+.filter-content {
+  border-bottom: 1px solid rgb(190, 190, 190);
+}
+
+.filter-item {
+  color: rgb(71, 71, 71);
+  padding-left: 10px;
+  line-height: 30px;
+}
+
+.toggle-button {
+  text-decoration: none;
+  color: rgb(71, 71, 71);
+}
+
+.toggle-button:link {
+  text-decoration: none;
+  color: rgb(71, 71, 71);
+}

@@ -1,0 +1,32 @@
+.tabs {
+  width: 75%;
+  height: 50px;
+}
+
+.tabs-content {
+  height: 100%;
+  display: flex;
+}
+
+.tab {
+  height: 30px;
+  margin-right: 20px;
+  text-transform: capitalize;
+}
+
+.tab-link {
+  color: rgb(136, 136, 136);
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.tab-link:hover {
+  color: rgb(63, 63, 63);
+}
+
+.tab-link--selected {
+  color: rgb(63, 63, 63);
+  text-decoration: none;
+}

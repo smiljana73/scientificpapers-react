@@ -1,0 +1,182 @@
+.App {
+  height: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  display: flex;
+  height: calc(100% - 100px);
+}
+
+.container-content {
+  width: 2000px;
+  height: 100%;
+  display: flex;
+  margin: auto;
+}
+
+.container-left {
+  width: 25%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.container-right {
+  background-color: rgb(255, 255, 255);
+  width: 75%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.content {
+  margin: 40px 0 40px 0;
+  padding: 0 20px 0 20px;
+  height: 85%;
+}
+
+.auth-container {
+  width: 100%;
+  height: 95%;
+  text-align: center;
+  background: rgb(245, 245, 245);
+}
+
+.auth-logo {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.auth-title {
+  width: 100%;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(39, 39, 39);
+}
+
+.auth-box {
+  width: 400px;
+  display: inline-block;
+  padding: 15px;
+  border: 1px solid rgb(190, 190, 190);
+  background: white;
+  margin-top: 15px;
+}
+
+.auth-form {
+  background: rgb(39, 39, 39);
+  background-origin: padding-box;
+  padding: 35px 15px 35px 15px;
+  color: rgb(71, 71, 71);
+  text-align: center;
+}
+
+.auth-input {
+  width: 90%;
+  height: 30px;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.auth-button {
+  background: #bd0000;
+  text-decoration: none;
+  border: none;
+  color: rgb(255, 255, 255);
+  width: 80px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0 10px 0;
+}
+
+.auth-button:hover {
+  cursor: pointer;
+  background: #750000;
+}
+
+.auth-button:active {
+  background: #750000;
+}
+
+.auth-footer {
+  height: 5%;
+  width: 90%;
+  background: rgb(245, 245, 245);
+  padding: 0 5% 0 5%;
+}
+
+.auth-footer-box {
+  width: 100%;
+  border-top: 1px solid rgb(190, 190, 190);
+  color: rgb(71, 71, 71);
+  font-size: 13px;
+  font-style: italic;
+  display: flex;
+}
+
+.auth-footer-left {
+  width: 50%;
+  text-align: left;
+}
+
+.auth-footer-right {
+  text-align: right;
+  width: 50%;
+}
+
+.logo-icon {
+  height: 100px;
+  width: 100px;
+}
+
+.auth-nav {
+  margin-top: 10px;
+  color: white;
+}
+
+.auth-nav--forgot {
+  margin-bottom: 10px;
+}
+
+.auth-nav-link {
+  color: rgb(9, 143, 231);
+}
+
+.auth-nav-label {
+  padding-bottom: 20px;
+  color: white;
+}

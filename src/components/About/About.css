@@ -1,0 +1,41 @@
+.about {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-logo {
+  position: absolute;
+  left: 0;
+  bottom: -70%;
+  top: -70%;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+.about-content {
+  width: 600px;
+  max-height: 450px;
+  display: inline-block;
+  text-align: center;
+  margin: 40px 0;
+  background-color: rgba(211, 211, 211, 0.829);
+  border: 1px solid rgb(126, 126, 126);
+  padding: 0 30px;
+  overflow-y: auto;
+}
+
+.about-paragraph {
+  text-align: justify;
+  padding: 25px 0;
+  border-bottom: 1px solid rgb(126, 126, 126);
+  color: black;
+  font-size: 17px;
+}
+
+.about-paragraph--last {
+  border-bottom: none;
+}

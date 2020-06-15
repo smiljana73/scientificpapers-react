@@ -1,0 +1,11 @@
+.search {
+  width: 70%;
+  height: 30px;
+  font-size: 15px;
+  background-image: url(../../../assets/images/icons8-search.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  border: rgb(190, 190, 190) 1px solid;
+  padding-left: 10px;
+  margin-bottom: 40px;
+}

@@ -1,0 +1,51 @@
+.result-item {
+  margin-bottom: 40px;
+}
+
+.results-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.results-description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  -webkit-box-orient: vertical;
+  text-align: justify;
+}
+
+.results-info {
+  font-style: italic;
+  color: rgb(63, 63, 63);
+}
+
+.pagination {
+  display: flex;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.bottom {
+  text-align: center;
+}
+
+.page {
+  margin: 0 4px 0 4px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(136, 136, 136);
+}
+
+.page--text {
+  margin: 0 15px 0 15px;
+}
+
+.page:hover {
+  color: rgb(63, 63, 63);
+}
+
+.page--selected {
+  color: rgb(63, 63, 63);
+}
